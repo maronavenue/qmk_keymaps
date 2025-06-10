@@ -1,0 +1,64 @@
+layout: {qmk_keyboard: crkbd/rev1, layout_name: LAYOUT_split_3x5_3}
+layers:
+  L0:
+  - - {t: Q, h: LCTL}
+    - W
+    - F
+    - P
+    - B
+    - J
+    - L
+    - U
+    - Y
+    - BSPC
+  - [A, R, S, T, G, M, N, E, I, O]
+  - - Z
+    - X
+    - C
+    - D
+    - V
+    - K
+    - H
+    - ','
+    - .
+    - {t: ENT, h: LCTL}
+  - [LGUI, L1, LSFT, SPC, L2, LALT]
+  L1:
+  - ['''', '"', ^, '?', '`', '[', <, '=', '>', ']']
+  - ['!', '@', '#', $, '%', '{', (, ':', ), '}']
+  - [\, '~', '|', ;, '&', /, '*', '-', +, _]
+  - - {t: ▽, type: trans}
+    - {type: held}
+    - LSFT
+    - {t: ▽, type: trans}
+    - L3
+    - {t: ▽, type: trans}
+  L2:
+  - [LCTL, RGUI, Sft+TAB, TAB, RALT, ',', HOME, UP, END, DEL]
+  - ['1', '2', '3', '4', '5', ., LEFT, DOWN, RGHT, ENT]
+  - ['6', '7', '8', '9', '0', ESC, PGUP, PGDN, ESC, LCTL]
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ENT, type: held}
+    - {t: ▽, type: trans}
+  L3:
+  - [F11, F12, PSCR, MPLY, MNXT, WH U, MS BTN1, MS U, MS BTN2, BRIU]
+  - [F1, F2, F3, F4, F5, WH D, MS L, MS D, MS R, BRID]
+  - - F6
+    - F7
+    - F8
+    - F9
+    - F10
+    - ''
+    - VOLD
+    - VOLU
+    - ''
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: MS BTN1, type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - ''
