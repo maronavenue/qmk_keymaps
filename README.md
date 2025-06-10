@@ -30,7 +30,7 @@ qmk compile -kb crkbd/rev1 -km crkbd_chocofi_helios -e CONVERT_TO=helios
 
 - Configured handedness via `#define` because getting the left and right bootloader to EEPROM with a suitable UF2 conversion proved to be a struggle (See https://docs.qmk.fm/features/split_keyboard#handedness-by-define).
 - :construction: LED work
-- :constructioN: Optimization for Vim motions
+- :construction: Optimization for Vim motions
 
 ## Credits
 
